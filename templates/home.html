@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>留言板</title>
+        <link rel="icon" href="../static/images/icon.ico">
+        <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../static/css/cBlog-simple.css">
+        <link rel="stylesheet" href="../static/css/iconfont.css">
+        <script src="{{url_for('static', filename='js/jquery-3.4.1.min.js')}}"></script>
+        <script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+    </head>
+    <body>
+        <div class="jumbotron" style="background-color: #3ac19f;margin-bottom: 0px;padding-bottom: 0px;">
+            <div class="container text-center showdown">
+                <div class="col-md-2 col-md-offset-5 col-xs-4 col-xs-offset-4 logo">
+                    <img class="img-responsive img-circle" src="../static/images/head.jpg">
+                </div>
+                <div class="clearfix"></div>
+                <div class="swing" style="font-size: 30px;">
+                    <a href="javascript:void(0)">十三月凉</a>
+                </div>
+                <div style="font-size: 25px;">
+                    <a href="javascript:void(0)" target="_blank"><i class="iconfont icon-qq"></i></a>
+                    <a href="javascript:void(0)" target="_blank"><i class="iconfont icon-mail"></i></a>
+                    <a href="javascript:void(0)" target="_blank"><i class="iconfont icon-weibo"></i></a>
+                    <a href="javascript:void(0)" target="_blank"><i class="iconfont icon-github"></i></a>
+                    <a href="javascript:void(0)" target="_blank"><i class="iconfont icon-coding"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container showdown">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav swing" id="daohangcaidan">
+                        <li class="active"><a href="/home" target="_self">首页</a></li>
+                        <li><a href="javascript:void(0)" target="_self">我的评论</a></li>
+                        <li><a href="javascript:void(0)" target="_self">关于我的</a></li>
+                        <li class="weidenglu"><a href="/">注册</a></li>
+                        <li class="weidenglu"><a href="/">重新登录</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row showup">
+                <div class="row">
+                    <div class="text-center">
+                        <a class="liu" href="http://cblog.xonline.top/?theme=cBlog-simple#" data-toggle="modal" data-target="#catfishModal">
+                            <span class="glyphicon glyphicon-edit"></span>&nbsp;我要留言</a>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-2">
+
+                    <div class="row" style="margin: 20px 20px 70px 20px;">
+                        <div class="clearfix"></div>
+                        <div>
+                            <h5 class="text-muted text-center"><span class="glyphicon glyphicon-time"></span>&nbsp;2018年08月19日&nbsp;&nbsp;<span class="glyphicon glyphicon-user"></span>&nbsp;Catfish Blog 演示&nbsp;&nbsp;<span class="glyphicon glyphicon-eye-open"></span>&nbsp;5837</h5><br>
+                            <p>崇圣寺以寺中三塔闻名于世，又称“大理三塔”，是中国著名的佛塔之一，三塔由一大二小三座佛塔组成，呈鼎立之态，远远望去，雄浑壮丽，是苍洱胜景之一。 只在三塔景区走了一圈，没有去寺庙那边。  崇圣寺三塔</p>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin: 20px 20px 70px 20px;">
+                        <div class="clearfix"></div>
+                        <div>
+                            <h5 class="text-muted text-center"><span class="glyphicon glyphicon-time"></span>&nbsp;2018年08月19日&nbsp;&nbsp;<span class="glyphicon glyphicon-user"></span>&nbsp;Catfish Blog 演示&nbsp;&nbsp;<span class="glyphicon glyphicon-eye-open"></span>&nbsp;5837</h5><br>
+                            <p>崇圣寺以寺中三塔闻名于世，又称“大理三塔”，是中国著名的佛塔之一，三塔由一大二小三座佛塔组成，呈鼎立之态，远远望去，雄浑壮丽，是苍洱胜景之一。 只在三塔景区走了一圈，没有去寺庙那边。  崇圣寺三塔</p>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <ul class="pagination">
+                            <li class="disabled"><span>«</span></li>
+                            <li class="active"><span>1</span></li>
+                            <li><a href="http://cblog.xonline.top/?page=2">2</a></li>
+                            <li><a href="http://cblog.xonline.top/?page=2">»</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <hr>
+                    <div class="row">
+                        <ul class="nav navbar-nav">
+                            <li><a href="http://www.catfish-cms.com/" target="_blank">待定</a></li>
+                            <li><a href="http://www.xonline.top/" target="_blank">待定</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="hidden" id="webroot">http://cblog.xonline.top/cblog/</div>
+        <a href="http://www.catfish-cms.com/" id="catfish" style="display: none;">Catfish(鲶鱼) Blog V 2.2.15</a><div class="modal fade" id="catfishModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">留言</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form id="catfishliuyan">
+                            <div class="form-group">
+                                <label>留言标题：</label>
+                                <input type="text" class="form-control" name="biaoti" placeholder="留言标题">
+                            </div>
+                            <div class="form-group">
+                                <label>留言内容：</label>
+                                <textarea class="form-control" name="neirong" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>留言人姓名：</label>
+                                <input type="text" class="form-control" name="xingming" placeholder="留言人姓名">
+                            </div>
+                            <div class="form-group">
+                                <label>留言人邮箱：</label>
+                                <input type="text" class="form-control" name="youxiang" placeholder="留言人邮箱">
+                            </div>
+                            <p class="text-danger" id="catfishliuyantishi"></p>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <button type="button" id="catfishtijiaoliuyan" class="btn btn-primary">提交留言<span class="hidden">&nbsp;<img src="../static/images/zhixing_bai.gif" width="14" height="14"></span><span class="glyphicon glyphicon-ok hidden"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+<!-- -webkit-animation: links .1s 3;   晃动特效*/-->
+    <!--animation: links .1s 3;-->

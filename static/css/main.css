@@ -1,0 +1,343 @@
+    #first{
+    text-align: center;
+    font-family: YouYuan;
+    font-size:1.5em;
+    }
+
+    #log{
+        text-align: center;
+        font-family: YouYuan;
+        font-size: 1.3em;
+    }
+    #log:before{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 130px;
+        left: 28%;
+        width: calc(40% + 2em);
+        height: 1px;
+        z-index: -1;
+        background: grey;
+    }
+
+    input{
+        font-size: 1em;
+        font-family: YouYuan;
+        outline: none;
+        border: solid 1px #E5E5E5;
+        background: #FFFFFF;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+        -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px
+    }
+
+    #login{
+        position: absolute;
+        top:160px;
+        left:41%;
+    }
+
+    /*#login form table{*/
+        /*margin: 0 auto;*/
+    /*}*/
+
+    #login button{
+        position: relative;
+        left:155%;
+        top:15px;
+        zoom: 1;
+        display: inline;
+        margin: 0 2px;
+        outline: none;
+        font-size:13px;
+        color: #606060;
+        border: solid 1px #b7b7b7;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        /*font: 14px/100% Arial, Helvetica, sans-serif;*/
+        padding: .5em 2em .55em;
+        text-shadow: 0 1px 1px rgba(0,0,0,.3);
+        border-radius: .5em;
+        box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    }
+
+    #login button:active{
+        color:yellow;
+        transform:scale(0.95);
+    }
+
+    #regist{
+        position: relative;
+        top:20px;
+    }
+
+    #a1{
+        position: relative;
+        text-decoration: none;
+    }
+
+    #a2{
+        position: relative;
+        text-decoration: none;
+        left:60%;
+    }
+
+    #reg{
+        position: absolute;
+        top:160px;
+        left:41%;
+    }
+
+    #reg .the_reg{
+        position: relative;
+        left:155%;
+        top:15px;
+        zoom: 1;
+        display: inline;
+        margin: 0 2px;
+        outline: none;
+        font-size:13px;
+        color: #606060;
+        border: solid 1px #b7b7b7;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        /*font: 14px/100% Arial, Helvetica, sans-serif;*/
+        padding: .5em 2em .55em;
+        text-shadow: 0 1px 1px rgba(0,0,0,.3);
+        border-radius: .5em;
+        box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    }
+
+    #reg .the_reg:active{
+        color:yellow;
+        transform:scale(0.95);
+    }
+
+
+    #zhuce{
+        display: block;
+        text-align: center;
+        font-family: YouYuan;
+        font-size: 1.3em;
+    }
+
+    #deng{
+        display: block;
+        position: absolute;
+        left: 68%;
+        text-decoration: none;
+        color:pink;
+        font-family: YouYuan;
+        font-size: 1.3em;
+    }
+    #deng:hover{
+        color:red;
+    }
+
+    #zhuce:before{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 130px;
+        left: 28%;
+        width: calc(40% + 2em);
+        height: 1px;
+        z-index: -1;
+        background: grey;
+    }
+
+    #send{
+        position: absolute;
+        top:288px;
+        left:64%;
+        zoom: 1;
+        display: inline;
+        margin: 0 2px;
+        outline: none;
+        font-size:14px;
+        color: #606060;
+        border: solid 1px #b7b7b7;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        /*font: 14px/100% Arial, Helvetica, sans-serif;*/
+        padding: .25em .3em .15em;
+        text-shadow: 0 1px 1px rgba(0,0,0,.3);
+        border-radius: .5em;
+        box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    }
+
+    #reset{
+        display: block;
+        text-align: center;
+        font-family: YouYuan;
+        font-size: 1.3em;
+    }
+
+    #deng_2{
+        display: block;
+        position: absolute;
+        left: 68%;
+        text-decoration: none;
+        color:pink;
+        font-family: YouYuan;
+        font-size: 1.3em;
+    }
+    #deng_2:hover{
+        color: red;
+    }
+
+    #reset:before{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 130px;
+        left: 28%;
+        width: calc(40% + 2em);
+        height: 1px;
+        z-index: -1;
+        background: grey;
+    }
+
+    #send_2{
+        position: relative;
+        left:80%;
+        zoom: 1;
+        display: inline;
+        margin: 0 2px;
+        outline: none;
+        font-size:14px;
+        color: #606060;
+        border: solid 1px #b7b7b7;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        /*font: 14px/100% Arial, Helvetica, sans-serif;*/
+        padding: .25em .3em .15em;
+        text-shadow: 0 1px 1px rgba(0,0,0,.3);
+        border-radius: .5em;
+        box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    }
+
+    #forget{
+        position: absolute;
+        top:160px;
+        left:41%;
+    }
+
+    #forget .the_reset{
+        position: relative;
+        left:155%;
+        top:15px;
+        zoom: 1;
+        display: inline;
+        margin: 0 2px;
+        outline: none;
+        font-size:13px;
+        color: #606060;
+        border: solid 1px #b7b7b7;
+        background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        /*font: 14px/100% Arial, Helvetica, sans-serif;*/
+        padding: .5em 2em .55em;
+        text-shadow: 0 1px 1px rgba(0,0,0,.3);
+        border-radius: .5em;
+        box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    }
+
+    #forget .the_reset:active{
+        color:yellow;
+        transform:scale(0.95);
+    }
+
+    #tip span{
+        position : absolute;
+        top : 360px;
+        left : 45%;
+        line-height: 50px;
+        border : solid 1px #b7b7b7;
+        height : 50px;
+        width : 226px;
+        background : #FF7276;
+        text-align : center;
+        box-shadow : rgba(0, 0, 0, 0.1) 0 0 8px;
+        transform : scale(1.05);
+    }
+
+    #tip_2 span{
+        position : absolute;
+        top : 360px;
+        left : 45%;
+        line-height: 50px;
+        border : solid 1px #b7b7b7;
+        height : 50px;
+        width : 226px;
+        background : #FF7276;
+        text-align : center;
+        box-shadow : rgba(0, 0, 0, 0.1) 0 0 8px;
+        transform : scale(1.05);
+    }
+
+    #tip_3 span{
+        position : absolute;
+        top : 360px;
+        left : 45%;
+        line-height: 50px;
+        border : solid 1px #b7b7b7;
+        height : 50px;
+        width : 226px;
+        background : #FF7276;
+        text-align : center;
+        box-shadow : rgba(0, 0, 0, 0.1) 0 0 8px;
+        transform : scale(1.05);
+    }
+
+    #tip_4 span{
+        position : absolute;
+        top : 430px;
+        left : 45%;
+        line-height: 50px;
+        border : solid 1px #b7b7b7;
+        height : 50px;
+        width : 226px;
+        background : #FF7276;
+        text-align : center;
+        box-shadow : rgba(0, 0, 0, 0.1) 0 0 8px;
+        transform : scale(1.05);
+    }
+    #send:active{
+        color: yellow;
+        transform: scale(0.95);
+    }
+
+    #send_2:active{
+        color: yellow;
+        transform: scale(0.95);
+    }
+
+    #phone_tips {
+
+    }
+
+    #pass_tip span{
+        position : absolute;
+        top : 450px;
+        left : 45%;
+        line-height: 50px;
+        border : solid 1px #b7b7b7;
+        height : 50px;
+        width : 226px;
+        background : #fef3ff;
+        text-align : center;
+        box-shadow : rgba(0, 0, 0, 0.1) 0 0 8px;
+        transform : scale(1.05);
+    }
