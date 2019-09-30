@@ -1,0 +1,8 @@
+
+{
+    "server_ip": "47.100.253.248",
+    "server_port": 3306,
+    "server_user":"chenge",
+    "server_password":"chenge",
+    "server_dbname":"mydb"
+}

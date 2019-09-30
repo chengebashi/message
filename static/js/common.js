@@ -99,6 +99,13 @@ $(function() {
                                  $('#tip_3').show(500);
                                  $('#tip_3').hide(2000);
                             }
+                            else if (data['err'] == 3){
+
+                                 $('#tip_3 span').text('手机号或密码不能为空');
+                                 $('.form_1 input[name="pass_word_1"]').val('');
+                                 $('#tip_3').show(500);
+                                 $('#tip_3').hide(2000);
+                            }
                             else{
                                 $('#tip_3 span').text('用户名不存在');
                                 $('.form_1 input[name="pass_word_1"]').val('');
@@ -418,6 +425,3 @@ $(function() {
                 }
             })
         });
-        
-
-
