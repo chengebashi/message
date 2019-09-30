@@ -208,7 +208,7 @@ $(function() {
                         data: 'user_name=' + uname,
                         timeout: 1000,
                         success: function (data) {
-                            if (data['err'] === 0) {
+                            if (data['err'] === 1) {
                                 $('#uname_tips').css('color', 'green');
                                 $('#uname_tips').text('√');
                                 can_submit = true;
